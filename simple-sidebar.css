@@ -6,12 +6,14 @@
 
 body {
     overflow-x: hidden;
+    background-color: #2E9D8F;
 }
 
 .icons {
     padding-left: 45px;
     font-size: 34px;
     font-family: italic;
+    color: #999999;
 }
 
 .container {
@@ -19,7 +21,8 @@ body {
     display: block;
     background-color: #6f6f6f;
     font-style: bold;
-    font-size: 22px;
+    font-size: 18px;
+    box-shadow: 1px;
 }
 
 #wrapper {
@@ -134,4 +137,12 @@ body {
         position: relative;
         margin-right: 0;
     }
+}
+
+footer {
+    position: absolute;
+    background-color: #002211;
+    width: 100%;
+    padding-left: 8px;
+    height: 23vh;
 }
